@@ -140,7 +140,7 @@ function App() {
             <div className="p-2 bg-blue-100 dark:bg-blue-900 rounded-xl">
               <Files className="h-6 w-6 text-blue-600 dark:text-blue-400" />
             </div>
-            <h1 className="text-2xl font-bold text-gray-900 dark:text-white">Rename Express</h1>
+            <h1 className="text-2xl font-bold text-gray-900 dark:text-white">Renommage de fichiers</h1>
           </div>
           <div className="flex items-center space-x-4">
             <a
@@ -279,6 +279,7 @@ function App() {
         <div className="mt-8 text-center text-sm text-gray-500 dark:text-gray-400">
           <p>Toutes les opérations sont effectuées localement dans votre navigateur.</p>
           <p>Aucun fichier n'est téléchargé sur un serveur.</p>
+          <p className="mt-4 text-xs">Créé par Victor Mirault</p>
         </div>
       </div>
     </div>
